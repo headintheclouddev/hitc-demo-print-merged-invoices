@@ -1,0 +1,13 @@
+{
+  "accounts": [
+    {
+      "name": "HITC Dev",
+      "companyId": "TSTDRV1264278",
+      "cabinetPath": "/SuiteScripts"
+    }, {
+      "name": "HITC Dev RP",
+      "companyId": "TSTDRV1264278_RP",
+      "cabinetPath": "/SuiteScripts"
+    }
+  ]
+}

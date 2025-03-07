@@ -1,0 +1,16 @@
+{
+  "name": "hitc-demo-print-merged-invoices",
+  "devDependencies": {
+    "@hitc/netsuite-tools": "^3.0.6",
+    "@hitc/netsuite-types": "^2025.1.6",
+    "@hitc/netsuite-upload": "^2.0.6",
+    "typescript": "^5.8.2"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "readme": "SSV2 Demo SuiteScripts",
+  "version": "1.0.0"
+}
