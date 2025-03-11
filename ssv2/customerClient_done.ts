@@ -16,5 +16,5 @@ export function pageInit() { // This entry point is not actually implemented
 
 export async function printInvoicesBtn() {
   const rec = await currentRecord.get.promise();
-  window.location.href = url.resolveScript({ scriptId: 'customscript_print_invoices_sl_done', deploymentId: 'customdeploy1', params: { customer: rec.id } });
+  window.open(url.resolveScript({ scriptId: 'customscript_print_invoices_sl_done', deploymentId: 'customdeploy1', params: { customer: rec.id } }));
 }
