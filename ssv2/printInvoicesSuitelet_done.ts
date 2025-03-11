@@ -34,7 +34,7 @@ export function onRequest(context: EntryPoints.Suitelet.onRequestContext) {
     log.debug('GET', `Created PDF ${pdfId} for invoice ${invoice.id}, usage remaining: ${runtime.getCurrentScript().getRemainingUsage()}`);
     pdfIds.push(pdfId);
   }
-  // Step 3: Generated a merged PDF containing all the individual invoice PDFs
+  // Step 3: Generate a merged PDF containing all the individual invoice PDFs
   const domain = url.resolveDomain({ hostType: url.HostType.APPLICATION });
   let xmlString = '<?xml version="1.0" encoding="UTF-8" ?>';
   xmlString    += '<!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">';
